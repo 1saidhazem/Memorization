@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.settingFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+        <Spinner
+            android:id="@+id/fragment_setting_spinner_app_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_spinner"
+            android:entries="@array/Application_language"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+<!--        <com.skydoves.powerspinner.PowerSpinnerView-->
+<!--            android:id="@+id/fragment_setting_spinner_app_language"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:background="@color/purple_200"-->
+<!--            android:gravity="center"-->
+<!--            android:hint="choose the language"-->
+<!--            android:padding="10dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/white"-->
+<!--            android:textSize="14sp"-->
+<!--            app:spinner_arrow_gravity="end"-->
+<!--            app:spinner_arrow_padding="8dp"-->
+<!--            app:spinner_divider_color="@color/white"-->
+<!--            app:spinner_divider_show="true"-->
+<!--            app:spinner_divider_size="0.8dp"-->
+<!--            app:spinner_item_array="@array/Application_language"-->
+<!--            app:spinner_popup_animation="bounce"-->
+<!--            app:spinner_popup_background="@color/purple_700"-->
+<!--            app:spinner_popup_elevation="14dp" />-->
+
+        <TextView
+            android:id="@+id/fragment_setting_tv_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_setting_spinner_app_language"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/change_password"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+            android:layout_below="@+id/fragment_setting_tv_change_password"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/fragment_setting_tv_SyncData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/sync_data"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+            android:layout_below="@+id/fragment_setting_tv_SyncData"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/fragment_setting_tv_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/profile"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+            android:layout_below="@+id/fragment_setting_tv_profile"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/fragment_setting_tv_activate_message_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/activate_message_mode"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+            android:layout_below="@+id/fragment_setting_tv_activate_message_mode"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/fragment_setting_tv_un_activate_message_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/unactivate_message_mode"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

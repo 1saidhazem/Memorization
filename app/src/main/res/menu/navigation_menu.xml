@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        android:fontFamily="@font/cairo_bold"
+        />
+
+    <item android:id="@+id/nav_memorization_center"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/center_memo"
+        android:title="@string/memorization_center"/>
+
+    <item android:id="@+id/nav_supervisors"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="@string/supervisors"/>
+
+    <item android:id="@+id/nav_wallets"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="@string/wallets"/>
+
+    <item android:id="@+id/nav_groups"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_center_memorization"
+        android:title="@string/groups"/>
+
+    <item android:id="@+id/nav_students"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="@string/students"/>
+
+    <item android:id="@+id/nav_all_data"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_all_data"
+        android:title="@string/all_data"/>
+
+    <item android:id="@+id/nav_send_message"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/send"
+        android:title="@string/send_message"/>
+
+    <item android:id="@+id/nav_setting"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/setting_app"/>
+
+    <item android:id="@+id/nav_message_student"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_message"
+        android:title="@string/message_student"/>
+
+    <item android:id="@+id/nav_sign_out"
+        android:fontFamily="@font/cairo_bold"
+        android:icon="@drawable/ic_sign_out"
+        android:title="@string/sign_out"/>
+
+
+<!--    android:icon="@drawable/ic_portrait_black_24dp"-->
+<!--    android:icon="@drawable/ic_brightness_high_black_24dp"-->
+<!--    android:icon="@drawable/ic_local_grocery_store_black_24dp"-->
+
+
+</menu>

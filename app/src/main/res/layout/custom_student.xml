@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="12dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="6dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/custom_student_img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            tools:src="@drawable/icon_test" />
+
+
+        <TextView
+            android:id="@+id/custom_student_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/custom_student_img"
+            android:fontFamily="@font/cairo_bold"
+            android:padding="3dp"
+            android:text="@string/student_name" />
+
+        <TextView
+            android:id="@+id/custom_student_tv_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_student_tv_name"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_student_img"
+            android:fontFamily="@font/cairo_light"
+            android:padding="3dp"
+            android:text="@string/phone_number" />
+
+        <TextView
+            android:id="@+id/custom_student_tv_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_student_tv_phone_number"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_student_img"
+            android:fontFamily="@font/cairo_light"
+            android:text="@string/branch"
+            android:textSize="14sp" />
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0.5dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/custom_student_tv_phone_number"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_student_tv_branch"
+            android:background="#2F2E2E" />
+
+        <TextView
+            android:id="@+id/custom_student_tv_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_student_tv_phone_number"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/view"
+            android:fontFamily="@font/cairo_light"
+            android:text="@string/group"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0.5dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/custom_student_tv_phone_number"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_student_tv_group"
+            android:background="#2F2E2E" />
+
+        <TextView
+            android:id="@+id/custom_student_tv_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_student_tv_phone_number"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/view2"
+            android:fontFamily="@font/cairo_light"
+            android:text="@string/center"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:id="@+id/custom_student_linear_list_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_student_img"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/custom_student_tv_group"
+            android:background="#FCFCFC"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:fontFamily="@font/cairo_bold"
+                android:padding="3dp"
+                android:textColor="@color/black"
+                android:text="@string/tasks" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginEnd="6dp"
+                android:textColor="@color/black"
+                android:src="@drawable/ic_task" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/custom_student_linear_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_student_img"
+            android:layout_alignBottom="@+id/custom_student_linear_list_task"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/custom_student_linear_list_task"
+            android:background="#FCFCFC"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/custom_student_tv_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_stars"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:text="0" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

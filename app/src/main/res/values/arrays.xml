@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="Application_language">
+        <item>اختار اللغة</item>
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="Center_Name">
+        <item>اختر اسم المركز</item>
+        <item>لازمه ادابتر</item>
+    </string-array>
+
+    <string-array name="Center_Manager">
+        <item>اختر مدير المركز</item>
+        <item>لازمه ادابتر</item>
+    </string-array>
+
+    <string-array name="branches">
+        <item>اختر الفرع</item>
+        <item>غزة</item>
+        <item>رفح</item>
+        <item>خان يونس</item>
+        <item>النصيرات</item>
+        <item>بني سهيلا</item>
+        <item>جباليا</item>
+        <item>دير البلح</item>
+        <item>الزوايده</item>
+        <item>خزاعة</item>
+        <item>عبسان الكبيرة</item>
+        <item>عبسان الجديدة</item>
+        <item>بيت لاهيا</item>
+        <item>بيت حانون</item>
+        <item>البريج</item>
+    </string-array>
+
+    <string-array name="memorization_center" >
+        <item>اختر مركز التحفيظ</item>
+    </string-array>
+
+    <string-array name="memorization_group">
+        <item>اختر حلقة التحفيظ</item>
+    </string-array>
+
+    <string-array name="wallet_name" >
+        <item>اختر اسم المحفظ</item>
+    </string-array>
+
+    <string-array name="Required_quantity" >
+        <item>جزء</item>
+        <item>سورة</item>
+        <item>صفحة</item>
+    </string-array>
+
+</resources>

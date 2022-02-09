@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="12dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="6dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/custom_group_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            tools:src="@drawable/icon_test" />
+
+
+        <TextView
+            android:id="@+id/custom_group_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_group_img"
+            android:fontFamily="@font/cairo_bold"
+            android:padding="3dp"
+            android:text="@string/name_group" />
+
+        <TextView
+            android:id="@+id/custom_group_tv_supervisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_group_tv_name"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_group_img"
+            android:fontFamily="@font/cairo_light"
+            android:padding="3dp"
+            android:text="@string/supervisor" />
+
+
+        <TextView
+            android:id="@+id/custom_group_tv_center_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_group_tv_supervisor"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/view"
+            android:layout_weight="1"
+            android:fontFamily="@font/cairo_light"
+            android:text="@string/center_name"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0.5dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/custom_group_tv_supervisor"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_group_tv_branch"
+            android:background="#2F2E2E" />
+
+        <TextView
+            android:id="@+id/custom_group_tv_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_group_tv_supervisor"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_group_img"
+            android:layout_weight="1"
+            android:fontFamily="@font/cairo_light"
+            android:text="@string/branch"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/custom_memo_iv_map"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_map2" />
+
+        <LinearLayout
+            android:id="@+id/custom_group_linear_list_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_group_img"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/custom_group_img"
+            android:background="#FCFCFC"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo_bold"
+                android:padding="3dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:text="@string/list_student" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginEnd="6dp"
+                android:src="@drawable/students_cap" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/custom_group_linear_list_wallets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_group_img"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/custom_group_linear_list_student"
+            android:background="#FCFCFC"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="8dp">
+
+            <TextView
+                android:id="@+id/custom_memo_group_tv_branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo_bold"
+                android:padding="3dp"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/list_wallets" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_card" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

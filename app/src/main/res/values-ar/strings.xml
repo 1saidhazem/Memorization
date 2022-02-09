@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مراكز التحفيظ</string>
+    <string name="menu_home">الرئيسية</string>
+    <string name="Close">Close</string>
+    <string name="Open">Open</string>
+    <string name="center_name">اسم المركز</string>
+    <string name="address_center">عنوان المركز</string>
+    <string name="branch_center">فرع المركز</string>
+    <string name="memo_group">حلقة التحفيظ</string>
+    <string name="home">الرئيسية</string>
+    <string name="memorization_center">مركز التحفيظ</string>
+    <string name="all_data">جميع البيانات</string>
+    <string name="setting_app">اعدادات التطبيق</string>
+    <string name="message_student">رسائل الطلاب</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="address">العنوان</string>
+    <string name="name_center_memorization">اسم مركز التحفيظ</string>
+    <string name="number_of_groups_allowed">عدد الحلقات المسموح بها</string>
+    <string name="save">حفظ</string>
+    <string name="name_group">اسم الحلقة</string>
+    <string name="supervisor">المشرف</string>
+    <string name="branch">الفرع</string>
+    <string name="list_student">قائمة الطلاب</string>
+    <string name="list_wallets">قائمة المحفظين</string>
+    <string name="memorization_group_name">اسم مركز التحفيظ</string>
+    <string name="number_of_students_allowed">عدد الطلاب المسموح بهم</string>
+    <string name="description_group">وصف الحلقة</string>
+    <string name="wallets_name">اسم المحفظ</string>
+    <string name="list_group">قائمة الحلقات</string>
+    <string name="student_name">اسم الطالب</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="center">المركز</string>
+    <string name="group">الحلقة</string>
+    <string name="tasks">المهام</string>
+    <string name="wallet_name">اسم المحفظ</string>
+    <string name="password">كلمة المرور</string>
+    <string name="rePassword">اعادة كلمة المرور</string>
+    <string name="student_overall_evaluation">التقييم العام للطالب</string>
+    <string name="from">من</string>
+    <string name="to">الى</string>
+    <string name="exam_student">الطالب المتقدم</string>
+    <string name="evaluation">التقييم</string>
+    <string name="feedback_on_the_evaluation">ملاحظات على التقييم</string>
+    <string name="task_end_date">تاريخ نهاية المهمة</string>
+    <string name="birth_day" >تاريخ الميلاد</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="identification_number">رقم الهوية</string>
+    <string name="add_new_supervisor">اضافة مشرف جديد</string>
+    <string name="supervisor_name">اسم المشرف</string>
+
+    <string name="title_activity_show_maps">ShowMapsActivity</string>
+    <string name="all_wallet">جميع المحفظين</string>
+    <string name="all_group">جميع الحلقات</string>
+    <string name="all_student">جميع الطلاب</string>
+    <string name="wallets">المحفظين</string>
+    <string name="groups">الحلقات</string>
+    <string name="students">الطلاب</string>
+    <string name="unactivate_message_mode">إلغاء تنشيط وضع الرسائل</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="new_user">مستخدم جديد ?</string>
+    <string name="register_now">سجل الان</string>
+    <string name="sign_up">تسجيل مستخدم جديد</string>
+    <string name="full_name">الاسم كامل</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="sync_data">مزامنة البيانات</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="activate_message_mode">تفعيل وضع الرسائل</string>
+    <string name="sender">المرسل</string>
+
+    <string name="please_enter_a_message">أدخل الرسالة</string>
+    <string name="send_message">أرسل الرسالة</string>
+    <string name="supervisors">المشرفين</string>
+    <string name="enter_the_old_password">أدخل كلمة المرور القديمة</string>
+    <string name="confirm_the_new_password">أكد كلمة المرور</string>
+    <string name="change">تغيير</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="enter_the_new_password">أدخل كلمة المرور الجديدة</string>
+
+</resources>

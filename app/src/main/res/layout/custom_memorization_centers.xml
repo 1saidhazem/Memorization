@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="12dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="6dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/custom_memo_centers_img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/icon_test"
+            />
+
+        <TextView
+            android:id="@+id/custom_memo_centers_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_memo_centers_img"
+            android:fontFamily="@font/cairo_bold"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:text="@string/center_name" />
+
+
+        <TextView
+            android:id="@+id/custom_memo_centers_tv_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_memo_centers_tv_name"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/custom_memo_centers_img"
+            android:fontFamily="@font/cairo_light"
+            android:padding="3dp"
+            android:text="@string/branch_center" />
+
+
+        <ImageView
+            android:id="@+id/custom_memo_iv_map"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_map2" />
+
+        <LinearLayout
+            android:id="@+id/customMemoGroupLinearListGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FCFCFC"
+            android:elevation="4dp"
+            android:layout_below="@+id/custom_memo_centers_tv_branch"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/cairo_bold"
+                android:padding="3dp"
+                android:layout_weight="2"
+                android:textColor="@color/black"
+                android:text="@string/memo_group" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_arrow_forward" />
+            </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

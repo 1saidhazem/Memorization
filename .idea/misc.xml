@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable-v24/ic_check.xml" value="0.34371807967313583" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable-v24/ic_delete.xml" value="0.34371807967313583" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable-v24/shape_tv_message_body.xml" value="0.33425925925925926" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_btn_address.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_btn_birthday.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_btn_login.xml" value="0.3328125" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_btn_overall.xml" value="0.3314814814814815" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_btn_publishing.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_dialog_change_password.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_et_from_to.xml" value="0.3287037037037037" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_img_edit.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/bg_spinner.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/circle.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_add.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_arrow.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_calendar.xml" value="0.3314814814814815" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_edit.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_format_list.xml" value="0.34371807967313583" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_lock.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_map.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_person.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/ic_tab.xml" value="0.3263534218590398" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/drawable/shape_et_advertising.xml" value="0.35052083333333334" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_add_new_advertising.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_add_new_center.xml" value="0.264" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_add_new_group.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_add_new_student.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_add_new_supervisor.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_add_new_task.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_add_new_wallests.xml" value="0.33" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_group_memorization.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_login.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_maps.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_overall_assessment_student.xml" value="0.3125" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_profile_center.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_scanner_bar_code.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_show_maps.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_sign_up.xml" value="0.3125" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_splash.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_student.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/activity_wallets.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/change_password.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_advertising.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_group_memorization.xml" value="0.33" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_memorization_centers.xml" value="0.33" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_message_student.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_spinner_item.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_student.xml" value="0.33" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_supervisor.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_tasks.xml" value="0.33" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/custom_wallets.xml" value="0.33" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_all_data.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_all_data_center.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_all_data_group.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_all_data_student.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_all_data_supervisor.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_all_data_wallet.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_groups.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_home.xml" value="0.3125" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_memo_centers.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_message_student.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_send_s_m_s_message.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_setting.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_show_maps.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_students.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_supervisor.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/fragment_wallets.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/layout/nav_header.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/menu/details_menu.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/menu/memo_center_menu.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/menu/menu.xml" value="0.3302083333333333" />
+        <entry key="..\:/wrash_2/project_warsh_tateir_2/memorization/app/src/main/res/menu/navigation_menu.xml" value="0.3302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.OverallAssessmentStudentActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="@font/cairo_bold"
+        android:padding="12dp"
+        android:text="@string/student_overall_evaluation"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <Button
+            android:id="@+id/overall_btn_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:text="@string/from"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_overall"
+            android:drawableStart="@drawable/ic_calendar"
+            />
+
+        <Button
+            android:id="@+id/overall_btn_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:text="@string/to"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_overall"
+            android:drawableStart="@drawable/ic_calendar"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/overall_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#F3E3E3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear"
+        tools:listitem="@layout/custom_tasks" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/overall_fab_add_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="8dp"
+            android:src="@drawable/ic_add"
+            app:fab_colorRipple="#ABA5A5"
+            app:fab_elevationCompat="0.6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

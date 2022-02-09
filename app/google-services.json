@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178375241412",
+    "project_id": "memorization-6e767",
+    "storage_bucket": "memorization-6e767.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178375241412:android:bb272d54f44c7219e42391",
+        "android_client_info": {
+          "package_name": "com.example.memorization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178375241412-csbd4i541r4dgv64ap9nk9tt4pippe3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.memorization",
+            "certificate_hash": "6fad41611db8c5d1c8c6bcfb7dc648a03f8c1352"
+          }
+        },
+        {
+          "client_id": "178375241412-2g0s0fnf2h03db953vh6d5bvvg8om1vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuydWcjzaQLKtwx79p_A-be2vwTf8imjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178375241412-2g0s0fnf2h03db953vh6d5bvvg8om1vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

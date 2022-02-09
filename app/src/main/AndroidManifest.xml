@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.memorization">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" /> -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <service
+            android:name=".SMSService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".Activities.ScannerBarCodeActivity"
+            android:exported="true" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+
+            <intent-filter >
+                <action android:name="android.provider.telephony.SMS_RECIEVED"/>
+            </intent-filter>
+
+        </receiver>
+
+        <activity
+            android:name=".Activities.AddNewAdvertisingActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps.ShowMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_show_maps" />
+        <activity
+            android:name=".Activities.AddNewSupervisorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Maps.MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Activities.ProfileCenterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddNewTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.OverallAssessmentStudentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddNewStudentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddNewWalletsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.StudentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.WalletsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddNewGroupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.GroupMemorizationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddNewCenterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true"
+            tools:ignore="MissingClass" />
+
+        <service
+            android:name=".ScheduleDataSync"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

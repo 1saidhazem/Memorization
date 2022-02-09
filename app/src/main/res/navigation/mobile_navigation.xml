@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/allDataFragment">
+<!--    app:startDestination="@+id/nav_home" -->
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:label="@string/menu_home"
+        android:name="com.example.memorization.Fragments.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_memoCentersFragment"
+            app:destination="@id/memoCentersFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_messageStudentFragment"
+            app:destination="@id/messageStudentFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_allDataFragment"
+            app:destination="@id/allDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allDataFragment"
+        android:name="com.example.memorization.Fragments.allDataFragment"
+        android:label="fragment_all_data"
+        tools:layout="@layout/fragment_all_data" >
+        <action
+            android:id="@+id/action_allDataFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/memoCentersFragment"
+        android:name="com.example.memorization.Fragments.memoCentersFragment"
+        android:label="fragment_memo_centers"
+        tools:layout="@layout/fragment_memo_centers" >
+        <action
+            android:id="@+id/action_memoCentersFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageStudentFragment"
+        android:name="com.example.memorization.Fragments.messageStudentFragment"
+        android:label="fragment_message_student"
+        tools:layout="@layout/fragment_message_student" >
+        <action
+            android:id="@+id/action_messageStudentFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.memorization.Fragments.settingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>
